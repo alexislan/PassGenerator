@@ -48,7 +48,12 @@ export const Generator = () =>{
     }
 
     const copiar = () => {
-        navigator.clipboard.writeText(contra);
+        const textarea = document.createElement("textarea");
+        textarea.value = contra;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
         alert('Contraseña copiada al portapapeles.');
     };
 
