@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(72, 90, 137);
+    color:#c1cefe;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: #624cab;
+    margin: 20px;
+    padding: 10px;
+    border: 4px black solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+.content h2{
+    text-align: center;
+}
+
+.crearContra{
+    padding: 5px;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: #78A1BB;
+    color:black;
+}
+.contraFinal{
+    display: flex;
+    flex-direction: column;
+}
+
+.contraFinal input{
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+
+}
+
+.contraFinal button{
+    padding: 5px;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: #78A1BB;
+    color:black;
+}
+
+@media (min-width: 800px) {
+    .content{
+        width: 700px;
+    }
+}

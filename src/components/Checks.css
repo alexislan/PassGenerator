@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Largo{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.Largo input{
+    width: 30px;
+    padding: 2px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
